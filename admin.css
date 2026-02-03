@@ -1,0 +1,11 @@
+.admin-menu {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+
+.admin-note {
+    font-style: italic;
+    color: #666;
+}

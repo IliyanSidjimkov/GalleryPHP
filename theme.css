@@ -1,0 +1,190 @@
+
+body {
+    background: #f0f2f5;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+.home-subtitle {
+    color: black !important;
+}
+.navbar .welcome-text {
+    margin-top: 10px;
+    display: inline-block;
+    color: white;
+}
+
+
+
+.navbar, .admin-menu {
+    background: #343a40;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-bottom: 4px solid #23272b;
+}
+
+.navbar a, .admin-menu-item {
+    color: white;
+    padding: 10px 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.2s;
+}
+
+.navbar a:hover, .admin-menu-item:hover {
+    background: #495057;
+}
+
+
+
+
+.container, .admin-container {
+    background: white;
+    padding: 30px;
+    margin: 40px auto;
+    border-radius: 12px;
+    max-width: 900px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+
+
+
+h2, .admin-title {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+
+input[type="text"], input[type="password"], input[type="email"], input[type="file"] {
+    padding: 12px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+
+
+
+button, .btn, .admin-btn {
+    background: #333;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover, .btn:hover, .admin-btn:hover {
+    background: black
+
+}
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-item {
+    width: 250px;
+    background: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.gallery-item img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th {
+    background: #343a40;
+    color: white;
+    padding: 14px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+table td {
+    background: white;
+    padding: 14px;
+    border-bottom: 1px solid #eee;
+}
+
+table tr:hover td {
+    background: #f7f7f7;
+}
+
+
+
+.role-badge {
+    padding: 6px 12px;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+}
+
+.role-admin {
+    background: #28a745;
+}
+
+.role-user {
+    background: #333;
+}
+.success-message {
+    background: white;
+    color: black;
+
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+.success-btn {
+    display: inline-block;
+    background: #333;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: 0.2s;
+}
+
+.success-btn:hover {
+    background: black;
+}
+.error-message {
+    background: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+}
